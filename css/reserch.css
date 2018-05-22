@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    width: 600px;
+    border: 2px solid #aaa;
+    padding: 10px;
+    margin: 100px auto;
+}
+
+#oInp {
+    width: 200px;
+    margin-left: 50px;
+    padding: 10px;
+}
+
+li {
+    list-style: none;
+    margin-top: 10px;
+    padding-left: 60px;
+    border-bottom: 1px solid #ddd;
+}
+button{
+    width:50px;
+    height:40px;
+}

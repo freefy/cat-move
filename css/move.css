@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.wrapper {
+    width: 500px;
+    height: 330px;
+    border: 1px solid black;
+    position: relative;
+    margin: 100px auto 0;
+    overflow: hidden;
+}
+
+.wrapper .slidePage {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 2500px;
+    height: 330px;
+    overflow: hidden;
+}
+
+.wrapper .slidePage li {
+    float: left;
+    padding: 5px 5px;
+}
+
+.wrapper .slidePage img {
+    background-size: 100% 100%;
+    width: 490px;
+    height: 320px;
+}
+
+.wrapper .btn {
+    position: absolute;
+    top: 150px;
+    width: 50px;
+    height: 50px;
+    background-color: #eed;
+    text-align: center;
+    line-height: 50px;
+    opacity: 0.2;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.wrapper:hover .btn {
+    opacity: 0.8;
+}
+
+.wrapper .rightBtn {
+    right: 10px;
+}
+
+.wrapper .leftBtn {
+    left: 10px;
+}
+
+.wrapper .slideList {
+    width: 500px;
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    text-align: center;
+}
+
+.wrapper .slideList span {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #eee;
+    margin-left: 5px;
+    cursor: pointer;
+    text-align:center;
+    line-height:30px;
+}
+
+.wrapper .slideList .active {
+    background-color: crimson;
+}
